@@ -1,3 +1,21 @@
+# Intro
+This project was completed as a final for my IOT class, this was completed as a team. 
+
+link to the original [repo](https://gitlab.com/carter-fogle/toolsense)
+
+ToolSense was created using a Esp32, Esp32-Cam, and a Rasberry Pi 5. The system consisted of a camera module, drawer sensor stand, gateway, and web interface that all linked to gether to give a live feed of a tool box's status including its tools and users.
+
+### Project Features
+- Created Drawer module that detected drawer state and communicted with rasberry pi gateway
+- Created Camera module that detected faces, encoded them and sent the bimetrics to gateway
+- Implemeted gateway that held local face data that was used to recognise tool users and determine tool status
+- Used Azure IoT hub to store systems telemetry data and error information
+- C# and React web interface to veiw live data from system
+
+
+### Reuslt Images
+
+
 # Toolsense
 
 Toolsense is a smart asset tracker system designed for unorganized toolboxes, like toolboxes without foam inserts, and intended to be a cheap solution for shops. 
