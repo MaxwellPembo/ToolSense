@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44479",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/Users/carter-fogle/Documents/projects/internet_of_things/project/git/toolsense/server/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}

@@ -1,0 +1,11 @@
+{
+  "event": {
+    "event_id": 123456789101112131415,
+    "face_embedding" : "face_embedding_string",
+    "drawer_state" : 
+        {
+            "drawer" : 2,
+            "state" : "OPEN"
+        }
+  }
+}

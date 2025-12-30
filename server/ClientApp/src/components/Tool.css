@@ -1,0 +1,89 @@
+.tool {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.tool.taken {
+  border-color: #ff9800;
+  background-color: #fff8f0;
+  box-shadow: 0 2px 8px rgba(255, 152, 0, 0.2);
+}
+
+.tool.available {
+  border-color: #4caf50;
+  background-color: #f0f8f4;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.tool-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.tool-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.tool-status {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tool-status.taken {
+  background-color: #ff9800;
+  color: white;
+}
+
+.tool-status.available {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tool-details {
+  padding: 8px 0;
+}
+
+.tool-detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.tool-detail-row label {
+  font-weight: 600;
+  color: #333;
+  min-width: 120px;
+}
+
+.tool-drawer {
+  font-weight: 500;
+  color: #666;
+}
+
+.tool-current-user {
+  font-weight: 500;
+  color: #ff9800;
+}
+
+.tool-last-user {
+  font-weight: 500;
+  color: #9c27b0;
+}
