@@ -11,10 +11,17 @@ ToolSense was created using a Esp32, Esp32-Cam, and a Rasberry Pi 5. The system 
 - Implemeted gateway that held local face data that was used to recognise tool users and determine tool status
 - Used Azure IoT hub to store systems telemetry data and error information
 - C# and React web interface to veiw live data from system
+- achieved less than second delay to update system changes.
 
 
 ### Reuslt Images
+##### Drawer Modue
+![System Overview](images/Drawer.png)
+![System Overview](images/BackOf.png)
 
+##### Web Interface
+![System Overview](images/ToolStatus.png)
+![System Overview](images/DrawerStatus.png)
 
 # Toolsense
 
